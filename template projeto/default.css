@@ -1,0 +1,268 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+header{
+	background: url(images/img01.jpg) repeat-x;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(to bottom, #c7c0ad, #eee3df, #eadcdd, #f3eef1, #ffffff);
+	font: normal small Georgia, "Times New Roman", Times, serif;
+	color: #6b6a6a;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+h2 {
+	color: #628765;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Header */
+
+#header {
+	width: 700px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	height: 110px;
+}
+
+#logo h1 {
+	float: left;
+	padding: 40px 40px 0 0;
+	letter-spacing: -2px;
+	font-size: 48px;
+}
+
+#logo h2 {
+	float: right;
+	padding: 61px 0 0 0;
+	font-size: 24px;
+	
+}
+
+#logo a {
+	text-decoration: none;
+	color: #1A1A1A;
+}
+
+
+#menu {
+	height: 70px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 10;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 140px;
+	height: 45px;
+	padding-top: 25px;
+	text-transform: lowercase;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: -2px;
+	font-size: 30px;
+	color: #628765;
+}
+
+#menu a:hover {
+	color: #1A1A1A;
+}
+
+/* Gallery */
+
+#gallery {
+	clear: both;
+	width: 700px;
+	margin: 0 auto;
+}
+
+#top-photo p {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+#prev {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 100px;
+	background: url(images/img11.gif) no-repeat;
+}
+
+#next {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 100px;
+	background: url(images/img13.gif) no-repeat right top;
+}
+
+#prev span, #next span {
+	display: none;
+}
+
+#thumbs {
+	display: block;
+	float: left;
+	width: 640px;
+	height: 100px;
+	background: url(images/img12.gif) no-repeat;
+}
+
+#thumbs img {
+	padding: 8px 0 0 10px;
+}
+
+/* Content */
+
+#content {
+	width: 700px;
+	margin: 0 auto;
+}
+
+/* Posts */
+
+#posts {
+	float: right;
+	width: 430px;
+}
+
+.post {
+	margin-bottom: 10px;
+}
+
+.post .title {
+	padding: 0 0 5px 20px;
+	color: #FF8400;
+}
+
+.post .meta {
+	padding: 10px 20px;
+	background: url(images/img15.gif) no-repeat;
+	font-size: smaller;
+}
+
+.post .meta p {
+	margin: 0;
+}
+
+.post .story {
+	padding: 10px 20px;
+	line-height: 180%;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 250px;
+}
+
+/* Boxed1 */
+
+.boxed {
+	margin-bottom: 1.5em;
+	background: url(images/img14.gif) no-repeat 0em 2.5em;
+}
+
+.boxed h2 {
+	padding-left: 20px;
+	color: #0078FF;
+}
+
+.boxed .content {
+	padding: 10px;
+}
+
+.boxed ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.boxed li {
+	padding: 10px;
+	border-bottom: 1px dotted #0078FF;
+}
+
+.boxed a {
+	text-decoration: none;
+	color: #0078FF;
+}
+
+.boxed a:hover {
+	text-decoration: underline;
+}
+
+/* Tag Cloud */
+
+#tagcloud {
+}
+
+#tagcloud .content {
+	padding: 20px;
+	text-align: justify;
+	font-size: smaller;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	padding: 40px;
+	background: #628765;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	font-size: smaller;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
