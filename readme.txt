@@ -1,0 +1,1 @@
+"Cata Treco" is a web platform developed with CakePHP. Its objective is to record and resolve incidents related to the removal of waste and debris. It is a simple and efficient tool for users to report problems and teams to coordinate collection. With an intuitive interface, it makes it easy to record and organize urban cleaning actions.
